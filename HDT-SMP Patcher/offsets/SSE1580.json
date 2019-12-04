@@ -1,0 +1,194 @@
+{
+  "hdtSSEFramework.dll": [
+    {
+      "offset": "00001C32",
+      "patch": "01050500"
+    },
+    {
+      "offset": "00000490",
+      "patch": "01293870"
+    },
+    {
+      "offset": "00002116",
+      "patch": "02F6B94C"
+    },
+    {
+      "offset": "00002124",
+      "patch": "02F6B948"
+    },
+    {
+      "offset": "00002173",
+      "patch": "00C076A0"
+    },
+    {
+      "offset": "00002230",
+      "patch": "00C076A0"
+    },
+    {
+      "offset": "00002389",
+      "patch": "005B2FF0"
+    },
+    {
+      "offset": "000024AC",
+      "patch": "001CAFB0"
+    },
+    {
+      "offset": "00004518",
+      "patch": "001CAFB0"
+    },
+    {
+      "offset": "00004619",
+      "patch": "005B2FF0"
+    },
+    {
+      "offset": "0000D48F",
+      "patch": "005B2FF0"
+    },
+    {
+      "offset": "0000D4F7",
+      "patch": "001CAFB0"
+    }
+  ],
+  "hdtSSEPhysics.dll": [
+    {
+      "offset": "0000931D",
+      "patch": "01050500"
+    },
+    {
+      "offset": "000006E9",
+      "patch": "02F4C910"
+    },
+    {
+      "offset": "00000709",
+      "patch": "02F4DED0"
+    },
+    {
+      "offset": "00000729",
+      "patch": "00C660D0"
+    },
+    {
+      "offset": "000007A9",
+      "patch": "01EBD280"
+    },
+    {
+      "offset": "000007C9",
+      "patch": "02F000F0"
+    },
+    {
+      "offset": "000007E9",
+      "patch": "02F4C31C"
+    },
+    {
+      "offset": "00000809",
+      "patch": "03497408"
+    },
+    {
+      "offset": "00000829",
+      "patch": "02F26EF8"
+    },
+    {
+      "offset": "0000121B",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "000014AB",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "00001742",
+      "patch": "03013670"
+    },
+    {
+      "offset": "00002744",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "000027AA",
+      "patch": "01DCC48C"
+    },
+    {
+      "offset": "000027BD",
+      "patch": "01DCC488"
+    },
+    {
+      "offset": "00002AE8",
+      "patch": "00C288B0"
+    },
+    {
+      "offset": "0000978F",
+      "patch": "01EBEB20"
+    },
+    {
+      "offset": "000097BE",
+      "patch": "0056B600"
+    },
+    {
+      "offset": "0002D4E3",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "000337E4",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "00033BBD",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "00035762",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "0003708B",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "0003741A",
+      "patch": "00C28740"
+    },
+    {
+      "offset": "0004FA49",
+      "patch": "00C75BB0"
+    },
+    {
+      "offset": "0004FA6B",
+      "patch": "00C75FD0"
+    },
+    {
+      "offset": "0004FAB7",
+      "patch": "00C75E90"
+    },
+    {
+      "offset": "0004FAE9",
+      "patch": "00C76300"
+    },
+    {
+      "offset": "0004FBA2",
+      "patch": "00C75E90"
+    },
+    {
+      "offset": "000507DC",
+      "patch": "00C75E90"
+    },
+    {
+      "offset": "00050845",
+      "patch": "00C75E90"
+    },
+    {
+      "offset": "00050879",
+      "patch": "00C75FD0"
+    },
+    {
+      "offset": "00050899",
+      "patch": "00C75FE0"
+    },
+    {
+      "offset": "000508B9",
+      "patch": "00C76030"
+    },
+    {
+      "offset": "000508D9",
+      "patch": "00C760D0"
+    }
+  ]
+}

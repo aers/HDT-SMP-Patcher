@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HDT_SE_Patcher"
         mc:Ignorable="d"
-        Title="HDT-SSE Patcher" Height="450" Width="800" ResizeMode="NoResize">
+        Title="HDT-SSE Patcher" Height="200" Width="800" ResizeMode="NoResize">
     <StackPanel>
-        <TextBlock Margin="20,10,20,10" TextAlignment="Justify" TextWrapping="Wrap" FontSize="16">Locate one or more of the HDT-SSE DLLs to patch them.<LineBreak></LineBreak>Note that Physics and HighHeels both require Framework to also be updated to run. </TextBlock>
+        <TextBlock Margin="20,10,20,10" TextAlignment="Justify" TextWrapping="Wrap" FontSize="16">Locate the HDT-SMP DLLs to patch them.<LineBreak></LineBreak>Note that Physics requires Framework to also be updated to run. </TextBlock>
         <Grid>
             <Grid.Resources>
                 <Style TargetType="TextBox">
@@ -40,16 +40,14 @@
             <Label>hdtSSEFramework</Label>
             <TextBox Name="TbFrameworkFile" Grid.Row="0" Grid.Column="1">Select a file...</TextBox>
             <Button Grid.Row="0" Grid.Column="2" Click="FrameworkButton_Click">Browse</Button>
-            <Label Name="LbFrameworkReady" Grid.Row="0" Grid.Column="3" Width="100">Not Ready</Label>
+            <Label Name="LbFrameworkReady" Grid.Row="0" Grid.Column="3" Width="150">Not Ready</Label>
             <Label Grid.Row="1" Grid.Column="0">hdtSSEPhysics</Label>
             <TextBox Name="TbPhysicsFile"  Grid.Row="1" Grid.Column="1">Select a file...</TextBox>
             <Button Grid.Row="1" Grid.Column="2" Click="PhysicsButton_Click">Browse</Button>
-            <Label Name="LbPhysicsReady" Grid.Row="1" Grid.Column="3" Width="100">Not Ready</Label>
-            <Label Grid.Row="2" Grid.Column="0">hdtSSEHighHeels</Label>
-            <TextBox Name="TbHighHeelsFile"  Grid.Row="2" Grid.Column="1">Select a file...</TextBox>
-            <Button Grid.Row="2" Grid.Column="2" Click="HighHeelsButton_Click">Browse</Button>
-            <Label Name="LbHighHeelsReady" Grid.Row="2" Grid.Column="3" Width="100">Not Ready</Label>
-
+            <Label Name="LbPhysicsReady" Grid.Row="1" Grid.Column="3" Width="150">Not Ready</Label>
+             <Label Grid.Row="2" Grid.Column="0">Patch to Version</Label>
+            <ComboBox Name="CbVersion" Grid.Row="2" Grid.Column="1" Width="100" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"></ComboBox>
+            <Button Grid.Row="2" Grid.Column="3" Click="PatchButton_Click" Margin="10,5,10,5">Patch</Button>
         </Grid>
     </StackPanel>
 </Window>
