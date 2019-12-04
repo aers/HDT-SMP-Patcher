@@ -1,0 +1,15 @@
+{
+  "available": [ "1.5.80", "1.5.97" ],
+  "newest":  "1.5.97", 
+  "files": {
+    "hdtSSEFramework": {
+      "versions": {
+        "1.5.80": "7B6002DAC3A7C858B20B37F9B09210E57B149471598358FC477CCE50B69A213E",
+        "1.5.97": "5A1413A272009E174C235FC043882DEDC9A6EC94840FD15D1AA5199AD5D7CD87"
+      },
+      "patches": [
+
+      ]
+    }
+  }
+}
