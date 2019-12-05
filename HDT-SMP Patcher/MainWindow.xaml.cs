@@ -15,17 +15,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using HDT_SE_Patcher.config;
+using HDT_SMP_Patcher.config;
 using Microsoft.Win32;
 
-namespace HDT_SE_Patcher
+namespace HDT_SMP_Patcher
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Dictionary<string, HDT_SE_Patcher.config.Version> versions;
+        private Dictionary<string, HDT_SMP_Patcher.config.Version> versions;
         public MainWindow()
         {
             InitializeComponent();
@@ -42,7 +42,7 @@ namespace HDT_SE_Patcher
             }
             else
             {
-                versions = JsonSerializer.Deserialize<Dictionary<string, config.Version>>(System.IO.File.ReadAllText("offsets/versions.json"));
+                versions = JsonSerializer.Deserialize<Dictionary<string, HDT_SMP_Patcher.config.Version>>(System.IO.File.ReadAllText("offsets/versions.json"));
 
                 foreach(var value in versions.Values)
                 {

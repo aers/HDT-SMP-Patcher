@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace HDT_SE_Patcher
+namespace HDT_SMP_Patcher
 {
     /// <summary>
     /// Interaction logic for App.xaml

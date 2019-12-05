@@ -14,5 +14,13 @@
     },
     "name": "SSE 1.5.80",
     "offset_file": "SSE1580.json"
+  },
+  "SVR 1.4.15": {
+    "files": {
+      "hdtSSEFramework.dll": "81D793B807ECEEEE4AB9816E7179D7893A91217539B9409536825348C277EA57",
+      "hdtSSEPhysics.dll": "9DA8F44B09B1A8864906EC0D90FB25D7167585E93779D23EF18B0FEB20905CF0"
+    },
+    "name": "SVR 1.4.15",
+    "offset_file": "SVR1415.json"
   }
 }

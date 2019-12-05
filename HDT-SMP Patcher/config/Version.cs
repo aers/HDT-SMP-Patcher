@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace HDT_SE_Patcher.config
+namespace HDT_SMP_Patcher.config
 {
     class Version
     {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>HDT_SE_Patcher</RootNamespace>
+    <RootNamespace>HDT_SMP_Patcher</RootNamespace>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
@@ -11,10 +11,14 @@
     <None Remove="offsets.json" />
     <None Remove="offsets\SSE1580.json" />
     <None Remove="offsets\SSE1597.json" />
+    <None Remove="offsets\SVR1415.json" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="offsets\SSE1580.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="offsets\SVR1415.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="offsets\SSE1597.json">
